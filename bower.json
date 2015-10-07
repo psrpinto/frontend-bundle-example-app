@@ -1,0 +1,18 @@
+{
+  "name": "frontend-bundle-example-app",
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "bootstrap": "~3.3.5"
+  },
+  "overrides": {
+    "font-awesome": {
+        "main": "fonts/*"
+    },
+    "bootstrap": {
+        "main": [
+            "dist/css/bootstrap.css",
+            "dist/js/bootstrap.js"
+        ]
+    }
+  }
+}

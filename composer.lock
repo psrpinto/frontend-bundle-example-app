@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3e0ffebfc7ec5017cd389aee4ef60814",
-    "content-hash": "97a65ddfd75e56eb06298c9192afa45f",
+    "hash": "c2b2da815a2f33e64eca9670b4832e0a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1061,6 +1060,60 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "regularjack/frontend-bundle",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/regularjack/frontend-bundle.git",
+                "reference": "35189cf5bb6ac6dc4d0b228682fd6012b44cb63b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/regularjack/frontend-bundle/zipball/35189cf5bb6ac6dc4d0b228682fd6012b44cb63b",
+                "reference": "35189cf5bb6ac6dc4d0b228682fd6012b44cb63b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/console": "~2.3",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/process": "~2.3"
+            },
+            "require-dev": {
+                "matthiasnoback/symfony-config-test": "1.2.*",
+                "matthiasnoback/symfony-dependency-injection-test": "0.7.*",
+                "phpunit/phpunit": ">=4.2",
+                "symfony/browser-kit": "~2.3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Rj\\FrontendBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paulo Rodrigues Pinto",
+                    "email": "regularjack@gmail.com"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/regularjack/frontend-bundle/contributors"
+                }
+            ],
+            "description": "A modern frontend development workflow for Symfony apps",
+            "homepage": "https://github.com/regularjack/frontend-bundle",
+            "keywords": [
+                "front-end",
+                "frontend"
+            ],
+            "time": "2015-10-07 01:03:57"
         },
         {
             "name": "sensio/distribution-bundle",

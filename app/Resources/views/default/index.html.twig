@@ -1,5 +1,17 @@
 {% extends 'base.html.twig' %}
 
+{% block stylesheets %}
+  {{ parent() }}
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+{% endblock %}
+
+{% block javascripts %}
+  {{ parent() }}
+    <script src="{{ asset('js/app.js') }}"></script>
+{% endblock %}
+
 {% block body %}
-  hello
+  <div class="hello">
+    hello <i class="fa fa-beer"></i>
+  </div>
 {% endblock %}

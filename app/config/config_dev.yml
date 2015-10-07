@@ -46,3 +46,6 @@ assetic:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+rj_frontend:
+    livereload: true
